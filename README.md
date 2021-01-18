@@ -1,10 +1,11 @@
-## 실리날아 session2 assignment 1
+## 실리날아 Session2 Assignment 1
 
 ### RIDI BOOKS Data Engineer 업무 수행 중이라고 가정
-### 참고 사이트 url : https://ridibooks.com/
-### 관련 직무 채용공고 : https://jobs.smartrecruiters.com/RIDICorp/743999725517007
 
-### raw data   
+참고 사이트 url : https://ridibooks.com/
+관련 직무 채용공고 : https://jobs.smartrecruiters.com/RIDICorp/743999725517007
+
+### Raw data
 1. 모든 회원의 정보 (아이디, 가입일, 메일주소 등)  
 2. 날짜, 요일, 시간별 회원들의 로그인 정보  
 3. 세션 정보   
@@ -17,7 +18,7 @@
 10. 최초 접속한 경로 (검색, 광고 / 웹, 앱 등)  
 11. 검색 키워드   
 
-## analytics 
+### Analytics
 1. 개별 도서 구매 전 마지막으로 본 세션  
 2. 유료 결제 전 평균 세션 지속 시간   
 3. 유료 결제 전 평균 세션 횟수  
@@ -29,6 +30,6 @@
 9. 장르별 선호도 확인(세션, 유료결제, 머문 시간 등으로)  
 10. 연령대별 선호도 확인(9번과 동일)  
 	     
-# 실리날아 session2 assignment 2
+## 실리날아 Session2 Assignment 2
 
-## number2answer.sql에 저장 
+### number2answer.sql에 저장 
