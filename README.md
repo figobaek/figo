@@ -2,7 +2,7 @@
 
 ### RIDI BOOKS Data Engineer 업무 수행 중이라고 가정
 
-참고 사이트 url : https://ridibooks.com/
+참고 사이트 url : https://ridibooks.com/  
 관련 직무 채용공고 : https://jobs.smartrecruiters.com/RIDICorp/743999725517007
 
 ### Raw data
