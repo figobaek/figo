@@ -1,6 +1,10 @@
-# 실리날아 session2 assignment 1
+## 실리날아 session2 assignment 1
 
-## raw data   
+### RIDI BOOKS Data Engineer 업무 수행 중이라고 가정
+### 참고 사이트 url : https://ridibooks.com/
+### 관련 직무 채용공고 : https://jobs.smartrecruiters.com/RIDICorp/743999725517007
+
+### raw data   
 1. 모든 회원의 정보 (아이디, 가입일, 메일주소 등)  
 2. 날짜, 요일, 시간별 회원들의 로그인 정보  
 3. 세션 정보   
