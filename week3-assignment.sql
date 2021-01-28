@@ -214,6 +214,7 @@ group by 1;
 -- 월별 방문 고객 수, 구매 고객 수, 구매량. 틱톡을 넣어줘야 하니까 마지막에 추가 
 
 
+[결과물, 실패]
 create table goldenboyy0524.assn2draft as 
 select extract(month from r.ts) as month ,ch.channel as channel, convert(float, count(u.sessionid)) uniqueUser, convert(float, count(t.sessionid)) paidUsers, (Case when paidUsers = 0 or uniqueUser = 0 then null Else (paidUsers / uniqueUser) * 100||'%' end) as conversionRate,  sum(t.amount) grossRevenue, sum(rv.namount) netRevenue
 from raw_data.session_timestamp r join raw_data.session_transaction t
