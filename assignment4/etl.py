@@ -14,7 +14,7 @@ from datetime import datetime
 dag = DAG (
     dag_id = 'my_4th_assignment',
     start_date = datetime(2021,02,04),
-    schedule_interval = '0 7 * * *'
+    schedule_interval = '0 4 * * *'
 )
     
 import requests
