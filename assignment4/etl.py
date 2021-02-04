@@ -13,7 +13,7 @@ from datetime import datetime
 
 dag = DAG (
     dag_id = 'my_4th_assignment',
-    start_date = datetime(2021,02,04),
+    start_date = datetime(2021,2,4),
     schedule_interval = '0 4 * * *'
 )
     
