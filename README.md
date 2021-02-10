@@ -1,9 +1,6 @@
 ## 실리날아 Session2 Assignment 1
 
-### RIDI BOOKS Data Engineer 업무 수행 중이라고 가정
-
-참고 사이트 : https://ridibooks.com/  
-관련 직무 채용공고 : https://jobs.smartrecruiters.com/RIDICorp/743999725517007
+### 도서 서비스 관련 엔지니어링 업무 수행 중으로 가정, 가상 데이터 인프라 구축
 
 ### Raw data
 1. 모든 회원의 정보 (아이디, 가입일, 메일주소 등)  
