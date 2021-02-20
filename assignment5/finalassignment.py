@@ -14,9 +14,9 @@ def get_Redshift_connection():
 def etl():
     logging.info("ctas started")
     cur = get_Redshift_connection()
-    # schema = 'goldenboyy0524'
-    # table = 'ctas_test'
-    cur.execute("CREATE TABLE goldenboyy0524.ctas_test AS SELECT * FROM raw_data.user_session_channel WHERE channel = 'Google';")
+    schema = 'goldenboyy0524'
+    table = 'ctas_test'
+    cur.execute("CREATE TABLE {}.{} AS SELECT * FROM raw_data.user_session_channel WHERE channel = 'Google';".format(schema, table))
     cur.execute("COMMIT")
     logging.info("ctas done")
 
@@ -29,3 +29,4 @@ task = PythonOperator(
 	task_id = 'perform_etl',
 	python_callable = etl,
 	dag = dag_second_assignment)
+
