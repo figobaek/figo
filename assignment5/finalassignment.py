@@ -1,3 +1,5 @@
+# summary table이 바로 생성되는 dag 만들어보기 (redshift 내 raw data 활용)
+
 from airflow import DAG
 from airflow.operators import PythonOperator
 from airflow.hooks.postgres_hook import PostgresHook
