@@ -16,6 +16,8 @@ def etl():
     cur = get_Redshift_connection()
     schema = 'goldenboyy0524'
     table = 'ctas_test'
+    cur.execute("BEGIN;")
+    cur.execute("DROP TABLE IF EXISTS {}.{};".format(schema, table))
     cur.execute("CREATE TABLE {}.{} AS SELECT * FROM raw_data.user_session_channel WHERE channel = 'Google';".format(schema, table))
     cur.execute("COMMIT")
     logging.info("ctas done")
